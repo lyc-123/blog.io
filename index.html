@@ -1,41 +1,193 @@
----
-layout: page
-description: "博客页面"
----
+﻿<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+	    
+<title>黑</title>
+<meta name="keywords" content="">
+<meta name="description" content=" ">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="landing">
+		<div id="page-wrapper">
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:150 }}
-        </div>
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-</div>
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="/">哈哈</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="/">Home</a></li>
+							<li><a href="#">Moe</a>
+					        <li><a href="#">Download</a></li>
+							<li><a href="#" target="_blank" class="button special">Blog</a></li>
+						</ul>
+					</nav>
+				</header>
 
-<hr>
-{% endfor %}
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>我是哈哈</h2>
+							<p>我才不要那么没用！！<br />
+							千里之行，始于足下！</p>
+						</header>
+						<span class="image"><img src="images/head_portrait.jpg" alt="萌站在线" /></span>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/pic001.jpg" alt="关于黑夜" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+										<h2>我是哈哈</h2>
+										<p>你好啊啊啊啊啊,但还是想要好好做下去....</p>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<p>公告：
+									<br />大数据打火机阿斯加德你叫撒...
+									</p>
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<p>阿诗丹顿
+									<br />啊受打击了看似简单
+									<br />是空的没卡上即可打开了
+									<br />什么课没吃卡了什么打开吗
+                                    <br />三大你三大你框架
+                                    </p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/pic002.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>互动小站</h2>
+							<p>什么的快乐社交恐惧打卡</p>！
+						</header>
+						<p>
+						实打实科雷嘉的看见爱上快捷登录！
+						<br />爱马仕肯定卡精神可嘉打卡机是！
+						<ul class="actions">
+							<li><a href="moban2002/index.html" class="button">进入玩具店</a></li>
+						</ul>
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/pic003.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>你好啊</h2>
+							<p>一个最近才开始涉及的板块。</p>
+						</header>
+						<p>撒打开那是可能打开那是肯定那是你啊思密达	</p>
+						<ul class="actions">
+							<li><a href="moban2002/index.html" class="button">进入玩具店</a></li>
+						</ul>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Four -->
+				<section id="four" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>网站设计</h2>
+							<p>萨克的监考老师焦点科技阿里！</p>
+						</header>
+						<div class="box alt">
+							<div class="row uniform">
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-area-chart"></span>
+									<h3>多年三年三年大</h3>
+									<p>爱上你进度款啊什么离开地面大厦将颠框架爱卡。</p>
+								</section>
+								<section class="4u 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-comment"></span>
+									<h3>网站仿站</h3>
+									<p>你卡里三年大柯尼卡三年大看你卡拉斯蒂</p>
+								</section>
+								<section class="4u$ 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-flask"></span>
+									<h3>阿萨美丽</h3>
+									<p>是的拿手机你的技能大卡司开电脑</p>
+								</section>
+					
+									
+					
+						</footer>
+					</div>
+				</section>
+
+			<!-- Five -->
+				<section id="five" class="wrapper style2 special fade">
+					<div class="container">
+						<header>
+							<h2>联系方式</h2>
+							<p>这里是我的联系方式呢.</p>
+						</header>
+						</div>
+		
+					<p>邮箱：aaaaaaaaa</p>
+				    <p>QQ：1111111111</p>
+                    <audio autoplay="autoplay"><source src="01 圣所.mp3" type="audio/mpeg" /></audio>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<!--<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>-->
+						
+					</ul>
+					<ul class="copyright">
+						<li>单就拉开始打开啦</li><li>Design: <a href="#">Night</a></li>
+						
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+<!--<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "//hm.baidu.com/hm.js?896657cfd762627291ee7bf931a8b164";
+var s = document.getElementsByTagName("script")[0]; 
+s.parentNode.insertBefore(hm, s);
+})();
+</script>-->
+			<script src="./assets/js/jquery.min.js"></script>
+			<script src="./assets/js/jquery.scrolly.min.js"></script>
+			<script src="./assets/js/jquery.dropotron.min.js"></script>
+			<script src="./assets/js/jquery.scrollex.min.js"></script>
+			<script src="./assets/js/skel.min.js"></script>
+			<script src="./assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="./assets/js/main.js"></script>
+
+	</body>
